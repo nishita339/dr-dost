@@ -1,3 +1,4 @@
+const UserDetail = require('./models/UserDetail'); // ✅ Correct
 const mongoose = require("mongoose");
 
 const userDetailSchema = new mongoose.Schema({
